@@ -1,0 +1,17 @@
+{
+   "intents": [
+      {
+         "intent": "wunderlistAddTaskIntent",
+         "slots": [
+            {
+               "name": "TASK",
+               "type": "LITERAL"
+            },
+            {
+               "name": "LIST",
+               "type": "LITERAL"
+            }
+         ]
+      }
+   ]
+}

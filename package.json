@@ -1,0 +1,20 @@
+{
+  "name": "alexa-wunderlist",
+  "version": "1.0.0",
+  "description": "Post tasks to Wunderlist from Amazon Echo.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "buildResources": "node ./lib/scripts/buildSchema.js && node ./lib/scripts/buildUtterances.js"
+  },
+  "author": "Zack Tollman",
+  "license": "MIT",
+  "dependencies": {
+    "alexa-app": "^2.2.0",
+    "async": "^1.5.0",
+    "bluebird": "^3.1.1",
+    "express": "^4.13.3",
+    "natural": "^0.2.1",
+    "request": "^2.67.0"
+  }
+}
